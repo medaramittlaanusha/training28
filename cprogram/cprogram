@@ -1,0 +1,12 @@
+#include<stdio.h>
+#define numof_days 7
+int main()
+{
+	int days;
+	int weeks,num_days;
+	scanf("%d",&days);
+	weeks=days/numof_days;
+	num_days=days%numof_days;
+	printf("%d weeks, %d days",weeks,num_days);
+	return 0;
+}
